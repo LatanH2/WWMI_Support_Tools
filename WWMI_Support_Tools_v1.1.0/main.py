@@ -22,17 +22,17 @@ class Launcher:
 
         tk.Button(
             frame, text="Toggle Maker", width=25,
-            command=lambda: run_script("WWMI_Toggle_Maker_v1.0.0/WWMI_Toggle_Maker.py")
+            command=lambda: run_script("WWMI_Toggle_Maker/WWMI_Toggle_Maker.py")
         ).pack(pady=5)
 
         tk.Button(
             frame, text="RabbitFX Maker", width=25,
-            command=lambda: run_script("WWMI_Rabbit_Maker_v1.0.0/WWMI_Rabbit_Maker_v1.0.0.py")
+            command=lambda: run_script("WWMI_Rabbit_Maker/WWMI_Rabbit_Maker.py")
         ).pack(pady=5)
 
         tk.Button(
             frame, text="Transparency Maker", width=25,
-            command=lambda: run_script("WWMI_Transparency_Maker_v1.0.0/WWMI_Transparency_Maker_v1.0.0.py")
+            command=lambda: run_script("WWMI_Transparency_Maker/WWMI_Transparency_Maker.py")
         ).pack(pady=5)
 
 
